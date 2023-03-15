@@ -1,0 +1,65 @@
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background-image:url(./background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.p-accordion-content {
+  position: relative;
+}
+
+.p-accordion-header > a {
+  background-color: #98c1d9 !important;
+}
+
+.p-panelmenu-header-action {
+  background-color: #98c1d9;
+}
+
+.p-dropdown-item.p-highlight {
+  background-color: #98c1d9;
+}
+
+.p-dropdown-panel {
+  background-color: #98c1d9;
+}
+
+.p-dropdown-item {
+  background-color: #98c1d9;
+}
+
+.p-highlight {
+  background-color: #98c1d9;
+}

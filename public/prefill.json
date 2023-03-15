@@ -1,0 +1,111 @@
+{
+  "Bioindicators": {
+    "Firmicutes/Bacteroides correlation": 1.5,
+    "Product of butyrate %": 8.2,
+    "Product of lactate %": 1.4,
+    "Product of acetate/propionate %": 35.5,
+    "Degradation of mucin %": 0.8,
+    "LPS carrier bacteria %": 0.294
+  },
+  "Phyla": {
+    "Firmicutes": 49.909,
+    "Bacteroidetes": 33.814,
+    "Proteobacteria": 11.520,
+    "Actinobacteria": 1.862,
+    "Verrucomicrobia": 0.788,
+    "Fusobacteria": 0.003,
+    "Cyanobacteria": 0.481,
+    "Euryarchaeota": 0.070,
+    "Tenericutes": 0.073
+  },
+  "Mucin degrading bacteria": {
+    "Akkermansia muciniphila": 0.752,
+    "Prevotella spp": 0.007,
+    "Prevotella copri": 0.002
+  },
+  "Mucous membrane protective microbiota": {
+    "Akkermansia muciniphila": 0.752,
+    "Faecalibacterium prausnitzii": 4.120
+  },
+  "Sulfate-reducing bacteria": {
+    "Bilophila wadsworthia": 0.080,
+    "Desulfobacter spp": 0.012,
+    "Desulfovibrio spp": 0.514,
+    "Desulforomonas spp": 0
+  },
+  "Neuroactive microbiota": {
+    "Bifidobacterium adolescentis": 0,
+    "Bifidobacterium dentium": 0,
+    "Lactobacillus brevis": 0,
+    "Lactobacillus plantarum": 0,
+    "Lactobacillus paracasei": 0,
+    "Oscillibacter spp": 0.177,
+    "Alistipes spp": 4.788
+  },
+  "Methane-forming bacteria": {
+    "Methanobacteria": 0.001,
+    "Methanobrevibacter smithii": 0.001
+  },
+  "LPS-carrying bacteria": {
+    "Citrobacter spp": 0,
+    "Enterobacter spp": 0,
+    "Escherichia spp": 0.005,
+    "Klebsiella spp": 0,
+    "Providencia spp": 0,
+    "Pseudomonas spp": 0.289,
+    "Serratia spp": 0,
+    "Sutterella spp": 0
+  },
+  "Immunomodulation": {
+    "Escherichia spp": 0.005,
+    "Enterococcus spp": 0
+  },
+  "Fiber-destroying microbiota": {
+    "Bifidobacterium adolescentis": 0,
+    "Ruminococcus spp": 2.619
+  },
+  "Bacteria that produce butyric acid": {
+    "Butyrivibrio crossotus": 0.005,
+    "Eubacterium spp": 0.807,
+    "Faecalibacterium prausnitzii": 4.120,
+    "Roseburia spp": 0.416,
+    "Ruminococcus spp": 2.619
+  },
+  "Acetate/propionate forming bacteria": {
+    "Alistipes spp": 4.788,
+    "Bacteroides spp": 21.312,
+    "Bacteroides vulgatus": 5.701,
+    "Dorea spp": 0.121
+  },
+  "Lactate-forming / saccharolytic bacteria": {
+    "Bifidobacterium spp": 1.356,
+    "Bifidobacterium adolescentis": 0,
+    "Enterococcus spp": 0,
+    "Lactobacillus spp": 0.010
+  },
+  "Clostridiaceae": {
+    "Clostridium spp": 1.678,
+    "Clostridium difficile": 0.005,
+    "Clostridium scindens": 0
+  },
+  "Other microbiota": {
+    "Fusobacterium nucleatum": 0,
+    "Oxalobacter formigenes": 0.023,
+    "Anaerotuncus colihominis": 0.053,
+    "Streptococcus spp": 0.195
+  },
+  "Fungus": {
+    "Candida spp": 0.003,
+    "Candida albicans": 0,
+    "Geotrichum candidum": 0,
+    "Saccharomyces cerevisiae": 0
+  },
+  "Histamine-forming microbiota": {
+    "Clostridium spp": 1.678,
+    "Enterobacter spp": 0,
+    "Hafnia alvei": 0,
+    "Klebsiella spp": 0,
+    "Serratia spp": 0,
+    "Escherichia spp": 0.005
+  }
+}

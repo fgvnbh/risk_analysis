@@ -1,0 +1,1020 @@
+{
+  "Atherosclerosis": {
+    "Bioindicators": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Firmicutes/Bacteroides correlation": {
+          "type": "trapezoidal",
+          "weight": 7,
+          "data": [
+            0.9,
+            1,
+            1.4,
+            1.5
+          ]
+        },
+        "Product of butyrate %": {
+          "type": "triangular",
+          "weight": 5,
+          "data": [
+            6,
+            8.5,
+            11
+          ]
+        },
+        "Product of lactate %": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            0.1,
+            0.7,
+            1.4
+          ]
+        },
+        "Product of acetate/propionate %": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            26,
+            34,
+            42
+          ]
+        },
+        "Degradation of mucin %": {
+          "type": "triangular",
+          "weight": 4,
+          "data": [
+            0.05,
+            4.4,
+            8.7
+          ]
+        },
+        "LPS carrier bacteria %": {
+          "type": "squaredZSpline",
+          "weight": 9,
+          "data": [
+            0,
+            3.7
+          ]
+        }
+      }
+    },
+    "Phyla": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Firmicutes": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            42,
+            47,
+            52
+          ]
+        },
+        "Bacteroidetes": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            34,
+            39.5,
+            45
+          ]
+        },
+        "Proteobacteria": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            4.0,
+            6.4,
+            8.8
+          ]
+        },
+        "Actinobacteria": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            0.3,
+            1.0,
+            1.6
+          ]
+        },
+        "Verrucomicrobia": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            0.007,
+            1.2,
+            2.4
+          ]
+        },
+        "Fusobacteria": {
+          "type": "squaredZSpline",
+          "weight": 2,
+          "data": [
+            0,
+            0.004
+          ]
+        },
+        "Cyanobacteria": {
+          "type": "triangular",
+          "weight": 0,
+          "data": [
+            0.02,
+            0.31,
+            0.6
+          ]
+        },
+        "Euryarchaeota": {
+          "type": "squaredZSpline",
+          "weight": 2,
+          "data": [
+            0,
+            0.002
+          ]
+        },
+        "Tenericutes": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            0.005,
+            0.1,
+            0.2
+          ]
+        }
+      }
+    },
+    "Mucin degrading bacteria": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Akkermansia muciniphila": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            0.003,
+            1.1,
+            2.1
+          ]
+        },
+        "Prevotella spp": {
+          "type": "triangular",
+          "weight": 6,
+          "data": [
+            0.006,
+            2.6,
+            5.1
+          ]
+        },
+        "Prevotella copri": {
+          "type": "sLinear",
+          "weight": 6,
+          "data": [
+            0.18,
+            0.2
+          ]
+        }
+      }
+    },
+    "Mucous membrane protective microbiota": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Akkermansia muciniphila": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            0.003,
+            1.1,
+            2.1
+          ]
+        },
+        "Faecalibacterium prausnitzii": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            1.5,
+            3.4,
+            5.2
+          ]
+        }
+      }
+    },
+    "Sulfate-reducing bacteria": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Bilophila wadsworthia": {
+          "type": "trapezoidal",
+          "weight": 5,
+          "data": [
+            0.2,
+            0.25,
+            0.3,
+            0.31
+          ]
+        },
+        "Desulfobacter spp": {
+          "type": "squaredZSpline",
+          "weight": 2,
+          "data": [
+            0,
+            0.004
+          ]
+        },
+        "Desulfovibrio spp": {
+          "type": "squaredZSpline",
+          "weight": 8,
+          "data": [
+            0,
+            0.2
+          ]
+        },
+        "Desulforomonas spp": {
+          "type": "squaredZSpline",
+          "weight": 2,
+          "data": [
+            0,
+            0.001
+          ]
+        }
+      }
+    },
+    "Neuroactive microbiota": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Bifidobacterium adolescentis": {
+          "type": "triangular",
+          "weight": 4,
+          "data": [
+            42,
+            47,
+            52
+          ]
+        },
+        "Bifidobacterium dentium": {
+          "type": "sLinear",
+          "weight": 2,
+          "data": [
+            0.0001,
+            0.001
+          ]
+        },
+        "Lactobacillus brevis": {
+          "type": "sLinear",
+          "weight": 2,
+          "data": [
+            0.0001,
+            0.001
+          ]
+        },
+        "Lactobacillus plantarum": {
+          "type": "sLinear",
+          "weight": 2,
+          "data": [
+            0.0001,
+            0.001
+          ]
+        },
+        "Lactobacillus paracasei": {
+          "type": "sLinear",
+          "weight": 2,
+          "data": [
+            0.0001,
+            0.001
+          ]
+        },
+        "Oscillibacter spp": {
+          "type": "triangular",
+          "weight": 3,
+          "data": [
+            0.2,
+            0.3,
+            0.31
+          ]
+        },
+        "Alistipes spp": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            2.2,
+            4.5,
+            6.7
+          ]
+        }
+      }
+    },
+    "Methane-forming bacteria": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Methanobacteria": {
+          "type": "squaredZSpline",
+          "weight": 4,
+          "data": [
+            0,
+            0.002
+          ]
+        },
+        "Methanobrevibacter smithii": {
+          "type": "squaredZSpline",
+          "weight": 4,
+          "data": [
+            0,
+            0.002
+          ]
+        }
+      }
+    },
+    "LPS-carrying bacteria": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Citrobacter spp": {
+          "type": "squaredZSpline",
+          "weight": 10,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Enterobacter spp": {
+          "type": "squaredZSpline",
+          "weight": 10,
+          "data": [
+            0,
+            0.007
+          ]
+        },
+        "Escherichia spp": {
+          "type": "squaredZSpline",
+          "weight": 8,
+          "data": [
+            0,
+            0.3
+          ]
+        },
+        "Klebsiella spp": {
+          "type": "squaredZSpline",
+          "weight": 10,
+          "data": [
+            0,
+            0.002
+          ]
+        },
+        "Providencia spp": {
+          "type": "squaredZSpline",
+          "weight": 1,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Pseudomonas spp": {
+          "type": "squaredZSpline",
+          "weight": 9,
+          "data": [
+            0,
+            0.002
+          ]
+        },
+        "Serratia spp": {
+          "type": "squaredZSpline",
+          "weight": 10,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Sutterella spp": {
+          "type": "squaredZSpline",
+          "weight": 1,
+          "data": [
+            0,
+            2.9
+          ]
+        }
+      }
+    },
+    "Immunomodulation": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Escherichia spp": {
+          "type": "squaredZSpline",
+          "weight": 8,
+          "data": [
+            0,
+            0.3
+          ]
+        },
+        "Enterococcus spp": {
+          "type": "triangular",
+          "weight": 7,
+          "data": [
+            0.001,
+            0.003,
+            0.005
+          ]
+        }
+      }
+    },
+    "Fiber-destroying microbiota": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Bifidobacterium adolescentis": {
+          "type": "triangular",
+          "weight": 4,
+          "data": [
+            0.001,
+            0.1,
+            0.2
+          ]
+        },
+        "Ruminococcus spp": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            2.2,
+            3.5,
+            4.8
+          ]
+        }
+      }
+    },
+    "Bacteria that produce butyric acid": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Butyrivibrio crossotus": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            0.001,
+            0.005,
+            0.01
+          ]
+        },
+        "Eubacterium spp": {
+          "type": "triangular",
+          "weight": 7,
+          "data": [
+            0.2,
+            0.9,
+            1.6
+          ]
+        },
+        "Faecalibacterium prausnitzii": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            1.5,
+            3.4,
+            5.2
+          ]
+        },
+        "Roseburia spp": {
+          "type": "triangular",
+          "weight": 8,
+          "data": [
+            0.3,
+            0.9,
+            1.5
+          ]
+        },
+        "Ruminococcus spp": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            2.2,
+            4.5,
+            6.7
+          ]
+        }
+      }
+    },
+    "Acetate/propionate forming bacteria": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Alistipes spp": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            2.2,
+            4.5,
+            6.7
+          ]
+        },
+        "Bacteroides spp": {
+          "type": "triangular",
+          "weight": 5,
+          "data": [
+            15,
+            23,
+            31
+          ]
+        },
+        "Bacteroides vulgatus": {
+          "type": "triangular",
+          "weight": 5,
+          "data": [
+            1,
+            5,
+            8.9
+          ]
+        },
+        "Dorea spp": {
+          "type": "triangular",
+          "weight": 0,
+          "data": [
+            0.08,
+            0.14,
+            0.2
+          ]
+        }
+      }
+    },
+    "Lactate-forming / saccharolytic bacteria": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Bifidobacterium spp": {
+          "type": "triangular",
+          "weight": 2,
+          "data": [
+            0.07,
+            0.69,
+            1.3
+          ]
+        },
+        "Bifidobacterium adolescentis": {
+          "type": "triangular",
+          "weight": 4,
+          "data": [
+            0.001,
+            0.1,
+            0.2
+          ]
+        },
+        "Enterococcus spp": {
+          "type": "triangular",
+          "weight": 7,
+          "data": [
+            0.001,
+            0.003,
+            0.005
+          ]
+        },
+        "Lactobacillus spp": {
+          "type": "triangular",
+          "weight": 3,
+          "data": [
+            0.004,
+            0.012,
+            0.02
+          ]
+        }
+      }
+    },
+    "Clostridiaceae": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Clostridium spp": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            0.9,
+            1.6,
+            2.2
+          ]
+        },
+        "Clostridium difficile": {
+          "type": "squaredZSpline",
+          "weight": 0,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Clostridium scindens": {
+          "type": "sLinear",
+          "weight": 0,
+          "data": [
+            0.0001,
+            0.001
+          ]
+        }
+      }
+    },
+    "Other microbiota": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Fusobacterium nucleatum": {
+          "type": "squaredZSpline",
+          "weight": 2,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Oxalobacter formigenes": {
+          "type": "sLinear",
+          "weight": 0,
+          "data": [
+            0.0001,
+            0.001
+          ]
+        },
+        "Anaerotuncus colihominis": {
+          "type": "triangular",
+          "weight": 8,
+          "data": [
+            0.04,
+            0.07,
+            0.1
+          ]
+        },
+        "Streptococcus spp": {
+          "type": "triangular",
+          "weight": 10,
+          "data": [
+            0.08,
+            0.3,
+            0.5
+          ]
+        }
+      }
+    },
+    "Fungus": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Candida spp": {
+          "type": "squaredZSpline",
+          "weight": 8,
+          "data": [
+            0,
+            0.005
+          ]
+        },
+        "Candida albicans": {
+          "type": "squaredZSpline",
+          "weight": 8,
+          "data": [
+            0,
+            0.005
+          ]
+        },
+        "Geotrichum candidum": {
+          "type": "squaredZSpline",
+          "weight": 0,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Saccharomyces cerevisiae": {
+          "type": "squaredZSpline",
+          "weight": 0,
+          "data": [
+            0,
+            0.2
+          ]
+        }
+      }
+    },
+    "Histamine-forming microbiota": {
+      "riskValue": {
+        "high": [
+          0,
+          0.4
+        ],
+        "medium": [
+          0.4,
+          0.6
+        ],
+        "mediumLow": [
+          0.6,
+          0.8
+        ],
+        "low": [
+          0.8,
+          1
+        ]
+      },
+      "attributes": {
+        "Clostridium spp": {
+          "type": "triangular",
+          "weight": 9,
+          "data": [
+            0.9,
+            1.6,
+            2.2
+          ]
+        },
+        "Enterobacter spp": {
+          "type": "squaredZSpline",
+          "weight": 10,
+          "data": [
+            0,
+            0.007
+          ]
+        },
+        "Hafnia alvei": {
+          "type": "squaredZSpline",
+          "weight": 0,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Klebsiella spp": {
+          "type": "squaredZSpline",
+          "weight": 10,
+          "data": [
+            0,
+            0.002
+          ]
+        },
+        "Serratia spp": {
+          "type": "squaredZSpline",
+          "weight": 10,
+          "data": [
+            0,
+            0.001
+          ]
+        },
+        "Escherichia spp": {
+          "type": "squaredZSpline",
+          "weight": 8,
+          "data": [
+            0,
+            0.3
+          ]
+        }
+      }
+    }
+  }
+}

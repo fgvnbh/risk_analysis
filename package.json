@@ -1,0 +1,37 @@
+{
+  "name": "risk_analysis",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "preview": "vite preview",
+    "buildunpacked": "electron-builder --prepackaged ./dist_electron/win-unpacked"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "@vue/cli-service": "^5.0.8",
+    "chart.js": "^4.2.1",
+    "file-saver": "^2.0.5",
+    "node": "^16.19.1",
+    "pinia": "^2.0.32",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.23.0",
+    "sass": "^1.58.3",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "electron": "^23.1.2",
+    "electron-devtools-installer": "^3.1.0",
+    "vite": "^4.1.4",
+    "vue-cli-plugin-electron-builder": "~2.1.1"
+  }
+}
